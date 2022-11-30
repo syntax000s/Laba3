@@ -40,7 +40,7 @@ void output(int Maxnumber,int GuantityNumber)
 {
 	FILE *f_output;// для записи в файл
 	f_output= fopen("kolmax.txt","w");
-	fprintf(f_output, "Guantity Number: %d /n Max number: %d ", GuantityNumber ,Maxnumber);
+	fprintf(f_output, "Guantity Number: %d \n Max number: %d ", GuantityNumber ,Maxnumber);
 	fclose(f_output);
 }
 
